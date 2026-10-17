@@ -1,0 +1,17 @@
+
+[project]
+name = "moss-bbox1000"
+version = "0.1.0"
+description = "Resolution-independent 0-1000 BBox coordinate converter for MOSS-Image in ComfyUI"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/b4ldur/ComfyUI-MOSS-BBox1000"
+Documentation = "https://github.com/b4ldur/ComfyUI-MOSS-BBox1000#readme"
+"Bug Tracker" = "https://github.com/b4ldur/ComfyUI-MOSS-BBox1000/issues"
+
+[tool.comfy]
+PublisherId = "b4ldur"
+DisplayName = "MOSS BBox 1000 Converter"
