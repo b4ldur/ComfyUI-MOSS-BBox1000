@@ -19,8 +19,10 @@ This is a JSON coordinate **preprocessor**, not a feature built into MOSS-Image.
 1. Clone the repository into `ComfyUI/custom_nodes/`:
 
    ```bash
-   cd /path/to/ComfyUI/custom_nodes
-   git clone https://github.com/<account>/ComfyUI-MOSS-BBox1000.git
+   
+cd /path/to/ComfyUI/custom_nodes
+git clone https://github.com/b4ldur/ComfyUI-MOSS-BBox1000.git
+
    ```
 
    Replace `<account>` with the GitHub repository owner after publishing. Or download the repository as ZIP and extract it into `custom_nodes/ComfyUI-MOSS-BBox1000/`.
