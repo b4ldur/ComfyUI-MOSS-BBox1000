@@ -1,0 +1,66 @@
+{
+  "summary": {
+    "meta": ["flat graphic design"],
+    "canvas": "single",
+    "caption": "A full-bleed dark poster with four colored corner panels and centered title."
+  },
+  "items": [
+    {
+      "label": "object",
+      "caption": "Dark background extending to all canvas edges.",
+      "bbox": [0, 0, 1000, 1000]
+    },
+    {
+      "label": "object",
+      "caption": "Red inset panel in the upper-left.",
+      "bbox": [40, 35, 155, 315]
+    },
+    {
+      "label": "text",
+      "caption": "Bold white text centered within the red upper-left panel.",
+      "text": "TOP LEFT",
+      "bbox": [65, 55, 130, 295]
+    },
+    {
+      "label": "object",
+      "caption": "Blue inset panel in the upper-right.",
+      "bbox": [40, 685, 155, 965]
+    },
+    {
+      "label": "text",
+      "caption": "Bold white text centered within the blue upper-right panel.",
+      "text": "TOP RIGHT",
+      "bbox": [65, 705, 130, 945]
+    },
+    {
+      "label": "object",
+      "caption": "Green inset panel in the lower-left.",
+      "bbox": [845, 35, 960, 315]
+    },
+    {
+      "label": "text",
+      "caption": "Bold white text centered within the green lower-left panel.",
+      "text": "BOTTOM LEFT",
+      "bbox": [860, 50, 940, 300]
+    },
+    {
+      "label": "object",
+      "caption": "Yellow inset panel in the lower-right.",
+      "bbox": [845, 685, 960, 965]
+    },
+    {
+      "label": "text",
+      "caption": "Bold white text centered within the yellow lower-right panel.",
+      "text": "BOTTOM RIGHT",
+      "bbox": [860, 700, 940, 950]
+    },
+    {
+      "label": "text",
+      "caption": "Bold white heading at the exact center.",
+      "text": "CENTER",
+      "bbox": [465, 390, 535, 610]
+    }
+  ],
+  "bbox_coord_space": "relative_1000",
+  "bbox_format": "yxyx"
+}
