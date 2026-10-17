@@ -19,13 +19,11 @@ This is a JSON coordinate **preprocessor**, not a feature built into MOSS-Image.
 1. Clone the repository into `ComfyUI/custom_nodes/`:
 
    ```bash
-   
-cd /path/to/ComfyUI/custom_nodes
-git clone https://github.com/b4ldur/ComfyUI-MOSS-BBox1000.git
-
+   cd /path/to/ComfyUI/custom_nodes
+   git clone https://github.com/b4ldur/ComfyUI-MOSS-BBox1000.git
    ```
 
-   Replace `<account>` with the GitHub repository owner after publishing. Or download the repository as ZIP and extract it into `custom_nodes/ComfyUI-MOSS-BBox1000/`.
+   Replace `/path/to/ComfyUI` with your actual ComfyUI installation path. Alternatively, download the repository as a ZIP and extract it into `ComfyUI/custom_nodes/ComfyUI-MOSS-BBox1000/`.
 2. Restart the ComfyUI server.
 3. Search for **MOSS BBox 1000 → Native** in category `MOSS-Image/layout`.
 
@@ -114,7 +112,7 @@ python tools/convert.py examples/layout_1000.json --width 1248 --height 1680 -o 
 python -m unittest discover -s tests -v
 ```
 
-Automated GitHub Actions tests cover multiple image sizes and invalid coordinates. The converter itself has been tested without ComfyUI; the full MOSS image-generation workflow still needs an environment with ComfyUI and MOSS-Image installed.
+The unit tests cover multiple image sizes and invalid coordinates. To enable automated CI testing on GitHub, commit the included `.github/workflows/tests.yml` file. The converter has been tested without ComfyUI; the full image-generation workflow must also be tested with ComfyUI and MOSS-Image installed.
 
 ## Limitations
 
